@@ -31,6 +31,11 @@
               ]
             }
           ],
+          "to_if_alone": [
+            {
+              "key_code": "escape"
+            }
+          ]
         },
         {
           "description": "Capslock + Esc = 切换大小写",
@@ -52,6 +57,29 @@
           "to": [
             {
               "key_code": "caps_lock",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Capslock + SpaceBar = 切换输入法",
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "spacebar",
               "modifiers": [
                 "left_control"
               ]
