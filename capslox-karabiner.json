@@ -31,11 +31,7 @@
               ]
             }
           ],
-          "to_if_alone": [
-            {
-              "key_code": "escape"
-            }
-          ]
+
         },
         {
           "description": "Capslock + Esc = 切换大小写",
