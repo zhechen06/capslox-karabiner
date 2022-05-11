@@ -8,7 +8,7 @@
 1. 下载 [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 并安装好
 2. 在默认浏览中输入下面网址，并回车
     ```shell
-    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/yqchilde/capslox-karabiner/main/capslox-karabiner.json
+    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/zhechen/capslox-karabiner/main/capslox-karabiner.json
     ```
 3. 跳转至Karabiner-Elements并导入
 4. 在软件菜单项 `Complex modifications` 中点击左下角 `Add rule` 启用该项目全部功能
