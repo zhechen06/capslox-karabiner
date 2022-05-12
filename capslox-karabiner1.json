@@ -59,6 +59,32 @@
               "key_code": "keypad_enter"
             }
           ]
+        },
+        {
+          "description": "Capslock + C = 拷贝",
+          "type": "basic",
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "optional": [
+                "caps_lock"
+              ],
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "keypad_enter",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ]
         }
       ]
     },
