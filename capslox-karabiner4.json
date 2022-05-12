@@ -38,7 +38,7 @@
           ]
         },
         {
-          "description": "Capslock + Esc = 切换大小写",
+          "description": "Capslock + Spacebar = 回车键",
           "type": "basic",
           "from": {
             "key_code": "spacebar",
