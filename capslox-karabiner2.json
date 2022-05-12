@@ -41,34 +41,11 @@
           "description": "Capslock + Esc = 切换大小写",
           "type": "basic",
           "from": {
-            "key_code": "escape",
+            "key_code": "spacebar",
             "modifiers": {
               "optional": [
                 "caps_lock"
               ],
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "caps_lock",
-              "modifiers": [
-                "left_control"
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Capslock + SpaceBar = 切换输入法",
-          "type": "basic",
-          "from": {
-            "key_code": "spacebar",
-            "modifiers": {
               "mandatory": [
                 "right_command",
                 "right_control",
