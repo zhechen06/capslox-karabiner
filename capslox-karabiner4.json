@@ -56,7 +56,7 @@
           },
           "to": [
             {
-              "key_code": "return_or_Enter"
+              "key_code": "keypad_enter"
             }
           ]
         }
